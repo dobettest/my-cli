@@ -1,0 +1,11 @@
+{
+    "vue2": {
+        "path":"https://github.com/dobettest/vue2.git",
+        "type":"git"
+    },
+    "vue3":{
+        "path":"https://github.com/dobettest/vue3.git",
+        "type":"git"
+
+    }
+}
