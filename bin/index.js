@@ -65,8 +65,8 @@ function addTemplate(name, path) {
     return;
   }
   let template = (customTemplate[name] = {});
-  template[path] = path;
-  template[type]=(/^http(s)?:\/\/(\S+).git$/).test(path)?"git":"local"
+  template["path"] = path;
+  template["type"]=(/^http(s)?:\/\/(\S+).git$/).test(path)?"git":"local"
   setCustomTemplate(customTemplate, (err) => {
     if (err) {
       exit(err);
